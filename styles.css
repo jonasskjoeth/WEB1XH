@@ -1,3 +1,86 @@
-body {
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    word-break: break-all;
+}
+
+body{
     background-color: black;
+}
+
+.wrapper {
+border: 1px solid white;
+background-color: black;
+width: 1920px;
+height: 1080px;
+padding: 5px;
+}
+
+#banner
+{
+    height: 160px;
+    width: 1910px;
+    color: white;
+    padding: 10px;
+    border: 1px solid rgb(255, 0, 0);
+}
+
+#personal1
+{
+    border: 1px solid white;
+    position: fixed;
+    left: 2%;
+    top: 200px;
+    float:left;
+    width: 300px;
+    padding: 5px;
+    border: 2px solid;
+    color: white;
+}
+
+.links
+{
+    border: 1px solid white;
+    width: 100px;
+    float: right;
+    font-size: 200%;
+    padding: 10px;
+    list-style: none;
+    display: inline;
+}
+
+#skills{
+    float: right;
+    width: 340px;
+    left: 38%;
+    right: 20px;
+    position: fixed;
+    top: 200px;
+    border: 2px solid white;
+}
+
+#personal_info{
+    float: left;
+    width: 340px;
+    left: 20%;
+    right: 20px;
+    position: fixed;
+    top: 200px;
+    border: 2px solid white;
+}
+
+#courses{
+    float: left;
+    width: 340px;
+    left: 58%;
+    right: 20px;
+    position: fixed;
+    top: 200px;
+    border: 2px solid white;
+}
+
+
+.clearfix{
+    overflow:hidden;
 }
