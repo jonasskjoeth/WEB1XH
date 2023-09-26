@@ -1,66 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV - Jonas Etmann Skjøth</title>
     <link href="styles.css" rel="stylesheet" type="text/css">
 </head>
+
+
+
 <body>
     <!-- Create a top part of the website to introduce the CV including the links to navigate-->
-< class="wrapper">
-    <div id="banner">
-        <ul>
-            <li class="links"> <a id="linkedin_bar" href="https://www.linkedin.com/in/jonasskjoeth/" target="_blank" title="LinkedIn"> <img src="images/linkedinicon.png"></a></li>
-            <li class="links"> <a id="email_bar" href="mailto:316954@via.dk"> <img src="images/iconemail.jpg" title="Email">   </a></li>
-            <li class="links"> <a id="info_bar" href="about.html"> <img src="images/info-icon-16.png" title="About me"> </a> </li>
-        </ul>
-    <h1 id="top">
-            Mandatory Assignment 1 - Personalized CV
-    </h1>
+    <div class="wrapper">
+        <div class="banner">
+            <ul>
+                <li class="links"> <a id="linkedin_bar" href="https://www.linkedin.com/in/jonasskjoeth/" target="_blank"
+                        title="LinkedIn"> <img src="images/linkedinicon.png"></a></li>
+                <li class="links"> <a id="email_bar" href="mailto:316954@via.dk"> <img src="images/emailicon1.png"
+                            title="Email"> </a></li>
+                <li class="links"> <a id="info_bar" href="about.html"> <img src="images/infoicon1.png"
+                            title="About me"> </a> </li>
+            </ul>
+            <h1 class="top" , class="headline">
+                Mandatory Assignment 1 - Personalized CV
+            </h1>
+        </div>
+<hr class="linebreaktop">
+        <div id="personal1" class="clearfix">
+            <img src="images/jonas_pic.jpg" alt="Portrait" title="Portrait">
+
+        </div>
+<!-- Here we are creating a fieldset for our information box(es)-->
+        <fieldset id="personal_info" class="clearfix">
+            <legend class="headline">
+                Personal Information
+            </legend>
+            <!-- Below we are creating list elements for our personal information - unordered of course-->
+            <ul class="infobox">
+                <li>Jonas Etmann Skjøth</li>
+                <br>
+                <li>5 December 1999</li>
+                <br>
+                <li>Marselis Boulevard 125 <br>8000 Aarhus C</li>
+                <br>
+                <li>316954@via.dk</li>
+                <br>
+                <li>+45 29 70 68 03</li>
+
+            </ul>
+
+
+        </fieldset>
+
+        <fieldset id="skills" class="clearfix">
+            <legend class="headline">
+                Skills
+            </legend>
+            <ul class="infobox">
+                <li>Intermediate level Excel</li>
+                <br>
+                <li>Intermediate level Java</li>
+                <br>
+                <li>Intermediate level SQL</li>
+                <br>
+                <li>Entry level Python</li>
+                <br>
+                <li>Entry level HTML/CSS</li>
+            </ul>
+
+        </fieldset>
+
+
+        <fieldset id="courses" class="clearfix">
+            <legend class="headline">
+                Courses
+            </legend>
+            <ul class="infobox">
+                <li> <a id="IntroductionToPythonLink"
+                        href="https://app.datacamp.com/learn/courses/intro-to-python-for-data-science" target="_blank"
+                        title="IntroductionToPythonLink">Introduction to Python</a></li>
+                <br>
+                <li> <a id="IntermediatePythonLink" href="https://app.datacamp.com/learn/courses/intermediate-python"
+                        target="_blank" title="IntermediatePythonLink">Intermediate Python</a></li>
+                <br>
+                <li> <a id="DataManipulationLink"
+                        href="https://app.datacamp.com/learn/courses/data-manipulation-with-pandas" target="_blank"
+                        title="DataManipulationLink">Data Manipulation with <br>pandas</a></li>
+                <br>
+                <li>VIA Excel course</li>
+            </ul>
+        </fieldset>
+
+        <fieldset id="Experience" class="clearfix">
+            <legend class="headline">
+                Experience
+            </legend>
+            <ul class="infobox">
+                <li>SOS International, Aarhus N</li>
+                <p class="subtext">
+                    Since March 2022
+                </p>
+                <p class="bodytext">
+                    Working with roadside assistance within Europe on behalf of
+                    multiple Danish insurance companies. Focus on strong communication skills, conflict-solving and teamwork in order to create the overall best result
+                    for each and every customer in need of emergency services.
+                </p>
+                <hr class="linebreak">
+                <li>König Kurer & Transport, Haderslev</li>
+                <p class="subtext">October 2019 - June 2021</p>
+                <p class="bodytext">Courier service - mainly ventilation systems and flowers for florists. Focus on solving problems alone and manage time correctly.</p>
+                <hr class="linebreak">
+            </ul>
+        </fieldset>
+
+
+        <fieldset id="Education" class="clearfix">
+            <legend class="headline">
+                Education
+            </legend>
+            <ul class="infobox">
+                <li>VIA University College, Aarhus C</li>
+                <p class="subtext">August 2021 - January 2026 (expected)</p>
+                <p class="bodytext">Global Business Engineering. <br> Specializing in software development (Java, database systems, ERP-systems, HTML etc.)
+                </p>
+<hr class="linebreak">
+                <li>STUK Gymnasium, Toftlund</li>
+                <p class="subtext"> August 2016 - June 2018</p>
+                <p class="bodytext">STX Education completed with focus on social science and
+                    average mark of 7.0 with award “Friend of the year” at
+                    graduation. The education is shortened to 2 years for efficiency
+                    and concentrates on preparation for university. </p>
+            </ul>
+        </fieldset>
     </div>
-    
-    <div id="personal1" class="clearfix">
-        <img src="images/jonas_pic.jpg" alt="Portrait" title="Portrait">
-        
-    </div>
-
-<div id="personal_info" class="clearfix">
-    <h1>
-        Personal Information
-    </h1>
-    <p>
-        I am 23 years old skrrrrrrrrrrrt
-        
-    </p>
-
-
-</div>
-
-    <div id="skills" class="clearfix">
-        <h1>
-            Skills
-        </h1>
-        <p>
-            Good at talking
-        </p>
-
-    </div>
-
-
-    <div id="courses" class="clearfix">
-        <h1>
-            Courses
-        </h1>
-        <p>
-            Completed it all 
-        </p>
-
-    </div>
-</div>
 
 
 
-    
+
 </body>
+
 </html>
