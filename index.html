@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV - Jonas Etmann Skjøth</title>
+    <!-- Below we link the html file to the css stylesheet -->
     <link href="styles.css" rel="stylesheet" type="text/css">
 </head>
-
-
 
 <body>
     <!-- Create a top part of the website to introduce the CV including the links to navigate-->
     <div class="wrapper">
         <div class="banner">
-            <ul>
-                <li class="links"> <a id="linkedin_bar" href="https://www.linkedin.com/in/jonasskjoeth/" target="_blank"
-                        title="LinkedIn"> <img src="images/linkedinicon.png"></a></li>
-                <li class="links"> <a id="email_bar" href="mailto:316954@via.dk"> <img src="images/emailicon1.png"
-                            title="Email"> </a></li>
-                <li class="links"> <a id="info_bar" href="about.html"> <img src="images/infoicon1.png"
-                            title="About me"> </a> </li>
-            </ul>
+            <nav class="links">
+                 <a id="linkedin_bar" href="https://www.linkedin.com/in/jonasskjoeth/" target="_blank"
+                        title="LinkedIn"> <img src="images/linkedinicon.png"></a>
+                 <a id="github_bar" href="https://github.com/jonasskjoeth" target="_blank" title="github">
+                        <img src="images/githubicon.png"> </a>
+                 <a id="email_bar" href="mailto:316954@via.dk"> <img src="images/emailicon1.png"
+                            title="Email"> </a>
+                 <a id="info_bar" href="about.html"> <img src="images/infoicon1.png"
+                            title="About me"> </a>
+            </nav>
             <h1 class="top" , class="headline">
                 Mandatory Assignment 1 - Personalized CV
             </h1>
@@ -44,7 +44,7 @@
                 <br>
                 <li>Marselis Boulevard 125 <br>8000 Aarhus C</li>
                 <br>
-                <li>316954@via.dk</li>
+                <li><a id="email_link" href="mailto:316954@via.dk">316954@via.dk</a></li>
                 <br>
                 <li>+45 29 70 68 03</li>
 
