@@ -1,3 +1,5 @@
+/* This stylesheet is linked to index.html and about.html to alter styles in CSS */
+
 * {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
@@ -6,6 +8,7 @@
     text-shadow: black 3px 3px 3px;
 }
 
+/* Create background color for safety and initializing background image for appearance */
 body {
     background-color: black;
     background-image: url(images/background1.jpg);
@@ -38,7 +41,7 @@ body {
     color: white;
     padding: 10px;
     top: 0%;
-    
+
 
 }
 
@@ -89,7 +92,7 @@ nav a {
     height: 325px;
     left: 420px;
     right: 20px;
-    position:absolute;
+    position: absolute;
     top: 180px;
     border: 2px solid rgba(255, 255, 255, 0.082);
 
@@ -106,7 +109,7 @@ nav a {
     border: 2px solid rgba(255, 255, 255, 0.082);
 }
 
-#Experience{
+#Experience {
     float: left;
     width: 725px;
     height: 400px;
@@ -116,7 +119,7 @@ nav a {
     border: 2px solid rgba(255, 255, 255, 0.082);
 }
 
-#Education{
+#Education {
     float: left;
     width: 750px;
     height: 400px;
@@ -126,29 +129,29 @@ nav a {
     border: 2px solid rgba(255, 255, 255, 0.082);
 }
 
-.infobox{
-    list-style:url(images/arrow-icon--myiconfinder-23.png);
+.infobox {
+    list-style: url(images/arrow-icon--myiconfinder-23.png);
     font-size: 120%;
     font-weight: bold;
-    
+
 }
 
-#via_list{
-    list-style:url(images/arrow-icon--myiconfinder-23.png);
+#via_list {
+    list-style: url(images/arrow-icon--myiconfinder-23.png);
     font-weight: bold;
     font-size: 15px;
     text-shadow: black 1px 1px 1px;
 }
 
-.subtext{
+.subtext {
     font-size: 80%;
     margin-top: 0%;
-    font-weight:100;
+    font-weight: 100;
     font-weight: bold;
 
 }
 
-.bodytext{
+.bodytext {
     font-size: 15px;
     margin-top: 0px;
     font-weight: 100%;
@@ -156,17 +159,17 @@ nav a {
     font-weight: bold;
 }
 
-.linebreak{
+.linebreak {
     border: 2px solid rgba(255, 255, 255, 0.082);
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
-.linebreaktop{
+.linebreaktop {
     border: 2px solid rgba(255, 255, 255, 0.082);
 }
 
-#My_hometown{
+#My_hometown {
     float: left;
     width: 725px;
     height: 750px;
@@ -176,7 +179,7 @@ nav a {
     border: 2px solid rgba(255, 255, 255, 0.082);
 }
 
-#About_VIA{
+#About_VIA {
     float: left;
     width: 725px;
     height: 750px;
@@ -186,7 +189,7 @@ nav a {
     border: 2px solid rgba(255, 255, 255, 0.082);
 }
 
-#toftlund_pic{
+#toftlund_pic {
     margin-top: 110px;
     height: 431px;
     width: 695px;
@@ -194,7 +197,7 @@ nav a {
     color: rgba(255, 255, 255, 0.082);
 }
 
-#aarhus_pic{
+#aarhus_pic {
     margin-top: 50px;
     height: 210px;
     width: 695px;
@@ -202,7 +205,7 @@ nav a {
     color: rgba(255, 255, 255, 0.082);
 }
 
-#horsens_pic{
+#horsens_pic {
     margin-top: 10px;
     height: 210px;
     width: 695px;
@@ -211,7 +214,7 @@ nav a {
 }
 
 
-
+/* Create a clearfix standard to contain elements larger than fitted - will contain INSIDE of container*/
 .clearfix {
     overflow: hidden;
 }
